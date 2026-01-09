@@ -29,4 +29,4 @@ spec:
     - protocol: TCP
       port: 80       # Port that the service will expose
       targetPort: 80 # Port on the pod that the service should forward traffic to
-  type: NodePort # Change to ClusterIP or NodePort based on your needs 
+  type: LoadBalancer # Change to ClusterIP or NodePort based on your needs 
